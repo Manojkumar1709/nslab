@@ -1,0 +1,5 @@
+gcc -fno-stack-protector -z execstack prg1.c -o prg1
+
+gcc -fno-stack-protector -z execstack prg2.c -o prg2
+
+gcc -fno-stack-protector -z execstack prg3.c -o prg3
